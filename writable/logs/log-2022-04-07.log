@@ -1,0 +1,10 @@
+CRITICAL - 2022-04-07 04:23:22 --> Call to undefined function get_template_directory_uri()
+#0 C:\xampp\htdocs\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\system\Common.php(1089): CodeIgniter\View\View->render('Contenido/Index', Array, true)
+#3 C:\xampp\htdocs\app\Controllers\Controlador_Login.php(13): view('Contenido/Index')
+#4 C:\xampp\htdocs\system\CodeIgniter.php(825): App\Controllers\Controlador_Login->index()
+#5 C:\xampp\htdocs\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controlador_Login))
+#6 C:\xampp\htdocs\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
