@@ -1,0 +1,18 @@
+CRITICAL - 2022-04-01 17:09:18 --> syntax error, unexpected end of file
+#0 C:\xampp\htdocs\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\system\Common.php(1089): CodeIgniter\View\View->render('Contenido/Index', Array, true)
+#2 C:\xampp\htdocs\app\Controllers\Controlador_Login.php(13): view('Contenido/Index')
+#3 C:\xampp\htdocs\system\CodeIgniter.php(825): App\Controllers\Controlador_Login->index()
+#4 C:\xampp\htdocs\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controlador_Login))
+#5 C:\xampp\htdocs\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-01 17:09:41 --> syntax error, unexpected end of file
+#0 C:\xampp\htdocs\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\system\Common.php(1089): CodeIgniter\View\View->render('Contenido/Index', Array, true)
+#2 C:\xampp\htdocs\app\Controllers\Controlador_Login.php(95): view('Contenido/Index')
+#3 C:\xampp\htdocs\system\CodeIgniter.php(825): App\Controllers\Controlador_Login->Iniciar_sesion()
+#4 C:\xampp\htdocs\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controlador_Login))
+#5 C:\xampp\htdocs\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
